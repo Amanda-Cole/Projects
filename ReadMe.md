@@ -5,7 +5,7 @@ Basic "Hello World" in Python with a little added variable.
 Establish folders for projects and create connection with GitHub.
 
 
-[Hello World Demo Video](http://youtube.link.goes.here)
+[Hello World Demo Video](https://youtu.be/_GOfXbU4d2M)
 
 # Development Environment
 
