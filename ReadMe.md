@@ -1,6 +1,6 @@
 # Overview
 
-Basic "Hello World" in Python.
+Basic "Hello World" in Python with a little added variable.
 
 Establish folders for projects and create connection with GitHub.
 
@@ -14,10 +14,10 @@ Python
 Visual Studio Code  
 GitHub
 
-Python
+Used Python language to write program.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Visual Studio Code tips and tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#vscode)
+* [Visual Studio Code Markdown](https://code.visualstudio.com/Docs/languages/markdown)
