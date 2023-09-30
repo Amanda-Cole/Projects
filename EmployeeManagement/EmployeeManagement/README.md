@@ -21,7 +21,6 @@ I used C# as my programming language.  I used the standard library and the Syste
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 
 - [Learn Microsoft](https://learn.microsoft.com/en-us/dotnet/api/system.io.streamwriter?view=net-7.0)
 - [w3 Schools](https://www.w3schools.com/cs/cs_while_loop.php)
