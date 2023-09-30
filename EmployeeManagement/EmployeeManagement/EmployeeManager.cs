@@ -10,10 +10,13 @@ using System.Web;
 
 namespace EmployeeManagement
 {
+    //EmployeeManager class - initialized in Program - generates employeeid, and read and write to txt file
     internal class EmployeeManager
     {
+        //create list of employees
         private List<Employee> employees;
         private int nextEmployeeId = 1;
+        //set file for data read and write
         private const string filepath = "employeelist.txt";
 
         public EmployeeManager()
@@ -111,16 +114,9 @@ namespace EmployeeManagement
 
         public void DisplayEmployees()
         {
+            Console.WriteLine();
             Console.WriteLine("Employee List:");
-            //if (File.Exists(filepath))
-            //{
-            //    using (StreamReader reader = new StreamReader(filepath))
-            //    {
-            //        string loadedText = reader.ReadToEnd();
-            //        Console.WriteLine("Updated from file");
-            //        Console.WriteLine(loadedText);
-            //    }
-            //}
+            Console.WriteLine();
             if (employees.Count > 0)
             {
                 foreach (Employee e in employees)
@@ -151,7 +147,6 @@ namespace EmployeeManagement
                             WriteEmployeeToStream(writer, e);
                         }   
                     }
-
                     Console.WriteLine($"Employee with ID {id} deleted successfully!");
                     Console.WriteLine("Click Enter to continue...");
                     Console.ReadLine();
@@ -160,15 +155,9 @@ namespace EmployeeManagement
             }
             Console.WriteLine($"Employee with ID {id} not found.");
         }
-
         private void WriteEmployeeToStream(StreamWriter writer, Employee employee)
         {
             writer.Write(employee.ToString());
-            //writer.WriteLine($"Employee ID: {employee.EmployeeId}");
-            //writer.WriteLine($"First Name: {employee.FirstName}");
-            //writer.WriteLine($"Last Name: {employee.LastName}");
-            //writer.WriteLine($"Salary: ${employee.Salary:F2}");
-            //writer.WriteLine($"Start Date: {employee.StartDate.ToShortDateString()}");
             writer.WriteLine();
         }
 

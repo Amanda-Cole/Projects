@@ -1,0 +1,30 @@
+Employee ID: 2
+First Name: Amanda
+Last Name: Cole
+Salary: $75000.00
+Start Date: 12/27/2020
+
+Employee ID: 3
+First Name: Amanda
+Last Name: Cole
+Salary: $75000.00
+Start Date: 12/27/2020
+
+Employee ID: 5
+First Name: Reagan
+Last Name: Cole
+Salary: $10000.00
+Start Date: 10/11/2011
+
+Employee ID: 6
+First Name: Dylan
+Last Name: Cole
+Salary: $55000.00
+Start Date: 3/30/2015
+
+Employee ID: 7
+First Name: London
+Last Name: Cole
+Salary: $32500.00
+Start Date: 6/25/2020
+

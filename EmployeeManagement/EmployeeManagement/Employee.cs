@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement
 {
+    //Employee Class - stores individual details on each employee
     public class Employee
     {
         //initialize employee details and get and set values
@@ -19,18 +20,16 @@ namespace EmployeeManagement
         //Constructor - set up new object
          public Employee( string firstName, string lastName, double salary, DateTime startDate) 
             { 
-                
                 FirstName = firstName;
                 LastName = lastName;
                 Salary = salary;
                 StartDate = startDate;
-
             }
+
+        //print details in a string
         public override string ToString()
         {
             return $"Employee ID: {EmployeeId}\nFirst Name: {FirstName}\nLast Name: {LastName}\nSalary: ${Salary:F2}\nStart Date: {StartDate.ToShortDateString()}\n";
-
-
         }
     }
 }
